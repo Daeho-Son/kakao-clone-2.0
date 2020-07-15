@@ -1,0 +1,35 @@
+.status-bar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 1px;
+  align-items: center;
+  padding: 15px 20px 15px 40px;
+  background-color: white;
+  opacity: 1;
+  z-index: 4;
+}
+
+.status-bar .status-bar__column {
+  opacity: 0.6;
+}
+
+.status-bar .column__left i {
+  margin-right: 3px;
+}
+
+.status-bar .column__middle {
+  position: fixed;
+  left: 50%;
+}
+
+.status-bar .status-bar__time,
+.status-bar .column__right span {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.status-bar .column__right {
+  position: fixed;
+  right: 20px;
+}

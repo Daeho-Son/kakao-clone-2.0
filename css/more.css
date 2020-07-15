@@ -1,0 +1,74 @@
+.more {
+  position: relative;
+  top: 100px;
+  padding: 0px 20px;
+}
+
+.more .friend .friend__right {
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.more .more__decorating {
+  display: flex;
+  margin: 35px 0 25px 15px;
+}
+
+.more__decorating .decorating-item,
+.more__suggestions .suggestions-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.more__suggestions .column__title {
+  border-top: 1px solid #f1f1f1;
+  padding-top: 25px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.more .more__suggestions .column__contents {
+  display: flex;
+  margin-top: 20px;
+}
+
+.more .decorating-item i,
+.more .suggestions-item i {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.more .suggestions-item span {
+  opacity: 0.7;
+}
+
+.more .decorating-item span,
+.more .suggestions-item span {
+  font-weight: 500;
+}
+
+.suggestions-item .fa-xbox {
+  color: #40751a;
+}
+
+.suggestions-item .fa-steam {
+  color: #081737;
+}
+
+.more .column__contents .item-playstation {
+  width: 35px;
+  height: 35px;
+  background-color: #003e94;
+  color: white;
+  margin-left: 17px;
+  margin-right: 40px;
+}
+.more .column__contents .item-playstation span {
+  color: black;
+}
+
+.more .column__contents .fa-chess-knight {
+  color: #ca8744;
+}

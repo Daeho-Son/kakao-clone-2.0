@@ -1,0 +1,45 @@
+.settings {
+  position: relative;
+  width: 100%;
+  top: 110px;
+}
+
+.settings .settings__column {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.settings .settings-item {
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 13px;
+  margin-bottom: 13px;
+}
+
+.settings-item i {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.settings-item span {
+  font-weight: 700;
+}
+
+.settings-item li:nth-child(1) {
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+.settings-item li:nth-child(2) {
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.settings__column .settings-item:nth-last-child(1),
+.settings .column__support {
+  border-bottom: none;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d0bc696c77.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>채팅 | 카카오톡</title>
+  </head>
+  <body>
+    <!-- status-bar -->
+    <div class="status-bar chat__status-bar">
+      <div class="status-bar__column column__left">
+        <i class="fas fa-comment-alt"></i>
+        <i class="fab fa-facebook-messenger"></i>
+      </div>
+      <div class="status-bar__column column__middle">
+        <span class="status-bar__time">11:11</span>
+      </div>
+      <div class="status-bar__column column__right">
+        <i class="fas fa-stopwatch"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
+        <span class="status-bar__battery">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <!-- header -->
+    <div class="header chat__header">
+      <div class="header__column">
+        <a href="index.html">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <span class="header__title">채팅</span>
+      </div>
+      <div class="header__column header__item-list">
+        <a href="find.html">
+          <i class="fas fa-search"></i>
+        </a>
+        <a href="settings.html">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- main - chat -->
+    <main class="chat">
+      <div class="current-time">2020년 07월 16일</div>
+      <div class="chat__incoming friend incoming">
+        <div class="profile-img girl"></div>
+        <span class="incoming__contents">
+          <span class="incoming__name">상대 이름</span>
+          <ul class="incoming__message">
+            <li class="incoming__text">카톡</li>
+            <li class="incoming__timestamp">03:14</li>
+          </ul>
+        </span>
+      </div>
+      <div class="chat__sent">
+        <ul class="sent__status">
+          <li class="sent__read-status">1</li>
+          <li class="sent__timestamp">03:15</li>
+        </ul>
+        <span class="sent__text">오키</span>
+      </div>
+    </main>
+
+    <!-- chat - navigation-bar -->
+    <div class="chat__writer-cntr">
+      <input type="text" placeholder="Send message" class="chat__writer" />
+      <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__icon-right chat__icon">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-microphone-alt"></i>
+      </div>
+    </div>
+    <div class="bigscreen">
+      <span class="bigscreen_text">Please make your screen small!!</span>
+    </div>
+  </body>
+</html>

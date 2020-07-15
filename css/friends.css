@@ -1,0 +1,38 @@
+.friends {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.friends .friends__plus-friend {
+  margin: 20px 0 15px 0;
+  padding: 15px 0 20px 0;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.friends__friend .friend__nowlistening {
+  position: relative;
+  width: 180px;
+  padding: 7px 20px 7px 7px;
+  border: 2px solid rgb(17, 161, 17);
+  border-radius: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.friend__nowlistening .friend__nowlistening-text {
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.friends__friend .friend__nowlistening i {
+  position: absolute;
+  top: 4px;
+  right: 7px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(17, 161, 17);
+}

@@ -1,0 +1,32 @@
+.friend .profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.friend .big-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 28px;
+}
+
+.friend .sleep_dog {
+  background-image: url(../images/profileimg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.friend .girl {
+  background-image: url(../images/girl.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.friend .girl2 {
+  background-image: url(../images/girl2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

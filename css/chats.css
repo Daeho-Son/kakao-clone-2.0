@@ -1,0 +1,44 @@
+.chats {
+  position: relative;
+  width: 100%;
+  top: 110px;
+  padding: 0px 20px;
+}
+
+.chats .friend__left {
+  display: flex;
+  align-items: center;
+}
+
+.chats .friend__left .status-top {
+  margin-bottom: 10px;
+}
+
+.chats .status-top .friend__membercount {
+  font-weight: 500;
+  font-size: 18px;
+}
+.chats .status-top .friend__membercount,
+.chats .status-top i {
+  margin-left: 5px;
+  opacity: 0.5;
+}
+
+.chats .friend__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.chats .friend__right .friend__lastime {
+  font-weight: 500;
+  margin-bottom: 5px;
+  opacity: 0.5;
+}
+
+.chats .friend__right .friend__messagecount {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: 500;
+}

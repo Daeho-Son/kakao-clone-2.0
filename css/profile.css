@@ -1,0 +1,38 @@
+.friend .friend__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .column__profile .friend__left {
+  display: flex;
+}
+
+.friend__left .friend__status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.friend__status .friend__name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.friend__status .friend__message {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.friend .column__title {
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+.friend .column__title .friend__title {
+  font-weight: 700;
+  font-size: 14px;
+  opacity: 0.8;
+}
