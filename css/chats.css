@@ -36,7 +36,12 @@
 }
 
 .chats .friend__right .friend__messagecount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: red;
+  width: 20px;
+  height: 20px;
   color: white;
   padding: 5px;
   border-radius: 50%;

@@ -32,11 +32,16 @@
 
 .nav-bar__item:nth-child(2) .nav__badge {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: -9px;
   left: 17px;
   background-color: red;
   color: white;
-  border-radius: 25px;
-  padding: 5px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
   font-size: 14px;
+  font-weight: 700;
 }
